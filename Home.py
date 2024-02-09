@@ -296,6 +296,8 @@ with st.expander("Tech Stack Used"):
     with col4:
         st.write("**:gray[Hugging Face]**")
 
+st.divider()
+
 # Education
 st.header("📒 &nbsp; Education")
 
