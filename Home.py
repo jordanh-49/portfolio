@@ -129,8 +129,8 @@ st.header("💼 &nbsp; Experience")
 # Job 1
 st.subheader("Data Analyst")
 st.subheader(":gray[Australian Institute of Sport (AIS)]")
-st.caption("Sep 2022 - Sep 2023&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC4)")
 st.caption("Sep 2023 - Present&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC5)")
+st.caption("Sep 2022 - Sep 2023&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC4)")
 st.markdown("- Lead and deliver data products to the entire HP System including the DPE Insights Survey as a part of the 2032+ Strategy.")
 st.markdown("- Building end-to-end data products from input to output for Olympic and Paralympic sporting programs including Table Tennis (Para & Able), Winter (Aerial Skiing) and Combat sports.")
 st.markdown("- Created an automated data solution for the Career Practitioner Referral Network (CPRN) reducing input time and driving engagement of over 80 practitioners in the network.")
@@ -139,21 +139,21 @@ st.markdown("- Delivered a full stack data product for the Community Engagement 
 st.markdown("")
 
 # Job 2
+st.subheader("Data Exploration Consultant")
+st.subheader(":gray[National University of Singapore (NUS)]")
+st.caption("May 2022 - Jun 2022&nbsp;&nbsp;|&nbsp;&nbsp;Contract")
+st.markdown("- Explored data governance best-practices to anonymise Wi-Fi contact tracing data in Python to ensure privacy compliance while maintaining data integrity for future analysis.")
+st.markdown("- Optimized SQL stored procedures within Neo4j, leveraging the power of graph databases to achieve a reduction in runtime by over 50%. ")
+
+st.markdown("")
+
+# Job 3
 st.subheader("Performance Analyst Intern")
 st.subheader(":gray[Victorian Institute of Sport (VIS)]")
 st.caption("May 2023 - Jun 2023&nbsp;&nbsp;|&nbsp;&nbsp;Part Time")
 st.markdown("- Coordinated capture and alignment of vision with spatial data in R to produce match reports in real time for coaching staff.")
 st.markdown("- Created a web scraping solution for ingesting and storing Netball match statistics in Python.")
 st.markdown("- Developed HUDL code windows for efficient data entry in Canoe Slalom, Netball and Hockey.")
-
-st.markdown("")
-
-# Job 3
-st.subheader("Data Exploration Consultant")
-st.subheader(":gray[National University of Singapore (NUS)]")
-st.caption("May 2022 - Jun 2022&nbsp;&nbsp;|&nbsp;&nbsp;Contract")
-st.markdown("- Point 1.")
-st.markdown("- Point 2.")
 
 st.divider()
 
@@ -326,7 +326,7 @@ st.markdown("")
 #Esmsys
 st.subheader("Master's of Sport Analytics")
 st.subheader(":gray[La Trobe University]")
-st.caption("Jan 2022 - Nov 2023&nbsp;&nbsp;|&nbsp;&nbsp;High Distinction")
+st.caption("Jan 2022 - Nov 2023&nbsp;&nbsp;|&nbsp;&nbsp;GPA 6.9")
 st.markdown("- Authored a thesis entitled 'Applications of Rating Systems to Single- and Multi-Competitor Olympic Sports' in partner with the Australian Institute of Sport.")
 st.markdown("- Developed advanced skills in R, Python, SQL, relational databases, dimensional modeling, and computer vision through coursework.")
 
@@ -335,7 +335,7 @@ st.markdown("")
 #Esmsys
 st.subheader("Bachelor of Sport and Exercise Science")
 st.subheader(":gray[La Trobe University]")
-st.caption("Jan 2018 - Nov 2020&nbsp;&nbsp;|&nbsp;&nbsp;High Distinction")
+st.caption("Jan 2018 - Nov 2020&nbsp;&nbsp;|&nbsp;&nbsp;GPA 6.5")
 st.markdown("- Studied sports Physiology, Biomechanics and Performance Analysis gaining industry and research experience in exercise prescription and sports analytics.")
 
 
