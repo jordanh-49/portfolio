@@ -296,23 +296,6 @@ with st.expander("Tech Stack Used"):
     with col4:
         st.write("**:gray[Hugging Face]**")
 
-st.markdown("")
-
-with st.expander("Tech Stack Used"):
-
-    col1, col2, col3, col4 = st.columns(4)
-
-    with col1:
-        st.write("**:gray[PHP]**")
-        st.write("**:gray[HTML]**")
-    with col2:
-        st.write("**:gray[Bootstrap]**")
-        st.write("**:gray[CSS]**")
-    with col3:
-        st.write("**:gray[MySQL]**")
-    with col4:
-        st.write("**:gray[Javascript]**")
-
 # Education
 st.header("📒 &nbsp; Education")
 
