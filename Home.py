@@ -150,7 +150,7 @@ st.markdown("")
 # Job 3
 st.subheader("Performance Analyst Intern")
 st.subheader(":gray[Victorian Institute of Sport (VIS)]")
-st.caption("May 2023 - Jun 2023&nbsp;&nbsp;|&nbsp;&nbsp;Part Time")
+st.caption("Oct 2021 - Oct 2022&nbsp;&nbsp;|&nbsp;&nbsp;Part Time")
 st.markdown("- Coordinated capture and alignment of vision with spatial data in R to produce match reports in real time for coaching staff.")
 st.markdown("- Created a web scraping solution for ingesting and storing Netball match statistics in Python.")
 st.markdown("- Developed HUDL code windows for efficient data entry in Canoe Slalom, Netball and Hockey.")
@@ -316,6 +316,6 @@ st.markdown("")
 st.subheader("Bachelor of Sport and Exercise Science")
 st.subheader(":gray[La Trobe University]")
 st.caption("Jan 2018 - Nov 2020&nbsp;&nbsp;|&nbsp;&nbsp;GPA 6.5")
-st.markdown("- Studied sports Physiology, Biomechanics and Performance Analysis gaining industry and research experience in exercise prescription and sports analytics.")
+st.markdown("- Studied sports Physiology, Biomechanics and Performance Analysis, gaining industry and research experience in exercise prescription and sports analytics.")
 
 
