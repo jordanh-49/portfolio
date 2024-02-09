@@ -296,11 +296,6 @@ with st.expander("Tech Stack Used"):
     with col4:
         st.write("**:gray[Hugging Face]**")
 
-# Admission Management System
-st.subheader(":gray[Project 3]")
-st.markdown("- Dot point 1.")
-st.markdown("- Dot point 2.")
-
 st.markdown("")
 
 with st.expander("Tech Stack Used"):
