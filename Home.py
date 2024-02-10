@@ -275,9 +275,9 @@ with st.expander("Tech Stack Used"):
         st.write("**:gray[Plotly]**")
 
 # Smart Chat Insights
-st.subheader(":gray[Project 2]")
-st.markdown("- Dot point 1.")
-st.markdown("- Dot point 2.")
+st.subheader(":gray[Personal Portfolio Website]")
+st.markdown("- Create a personal portfolio using Streamlit that has a UI/UX built with custom CSS and HTML.")
+st.markdown("- Digitise the resume as a means of continuous updating and displaying current analytical experience")
 
 st.markdown("")
 
