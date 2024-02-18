@@ -317,5 +317,3 @@ st.subheader("Bachelor of Sport and Exercise Science")
 st.subheader(":gray[La Trobe University]")
 st.caption("Jan 2018 - Nov 2020&nbsp;&nbsp;|&nbsp;&nbsp;GPA 6.5")
 st.markdown("- Studied sports Physiology, Biomechanics and Performance Analysis, gaining industry and research experience in exercise prescription and sports analytics.")
-
-
