@@ -21,14 +21,46 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-Clone the repository and install the required packages:
+To set up the application locally, follow these steps:
 
-```bash
-git clone https://github.com/jordanh-49/portfolio.git
-cd portfolio
-pip install -r requirements.txt
-```
+1. **Clone the Repository**:
+   
+   Clone the project repository from GitHub to your local machine using the following command:
 
+   ```bash
+   git clone https://github.com/jordanh-49/portfolio.git
+   ```
+3. **Navigate to the Project Directory**:
+
+   Change to the project directory with:
+
+   ```bash
+   cd portfolio
+   ```
+5. **Install Dependencies**:
+   
+   Install the necessary Python packages defined in the `requirements.txt` file:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the Application
+
+To run the application, execute the following steps:
+
+1. **Start the Application**:
+   
+   Launch the application by running the command below in your terminal. Ensure you are in the project root directory:
+
+   ```bash
+   streamlit run Home.py
+   ```
+3. **Access the Application**:
+   
+   After starting the app, you can access it by navigating to http://localhost:8501 in your web browser. This is the default port that Streamlit applications use unless configured otherwise.
+
+   
 ## License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/jordanh-49/portfolio/blob/main/LICENSE.md) for more information.
