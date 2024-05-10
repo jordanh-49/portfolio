@@ -19,6 +19,10 @@
 
 To get a local copy up and running follow these simple example steps.
 
+### Prerequisites
+
+Ensure you have Python 3.12 installed on your machine. You can download it from Python's official site.
+
 ### Installation
 
 To set up the application locally, follow these steps:
