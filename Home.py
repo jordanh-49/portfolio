@@ -53,7 +53,7 @@ st.markdown(html_code, unsafe_allow_html=True)
 
 st.markdown("""
     <div style="text-align:center;">
-        <img src="https://media.licdn.com/dms/image/C4D03AQE7AI4ND4OHoA/profile-displayphoto-shrink_200_200/0/1652921990290?e=1710979200&v=beta&t=oWx3aPqyVwShLlL42I2P9hgjuUhgGF01rx5uRPSG0N0" alt="Profile Picture" style="width:175px;height:175px;border-radius:50%;">
+        <img src="https://media.licdn.com/dms/image/C4D03AQE7AI4ND4OHoA/profile-displayphoto-shrink_400_400/0/1652921990290?e=1720656000&v=beta&t=8cq3fUKhBtNZUrtJOVzpn3IL3bEkuqHjb1WqzBwIr8c" alt="Profile Picture" style="width:175px;height:175px;border-radius:50%;">
     </div>
     """, unsafe_allow_html=True)
 
