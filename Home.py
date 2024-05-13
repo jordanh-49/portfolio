@@ -119,7 +119,7 @@ with cols[0]:
 with cols[1]:
     ui.metric_card(title="Visualisation", content="BI Tools", description="Tableau, Power BI", key="card2")
 with cols[2]:
-    ui.metric_card(title="Sports Analytics", content="HP Sport", description="Performance Analysis", key="card3")
+    ui.metric_card(title="Analytics Engineering", content="Orchestration", description="Dagster, DBT", key="card3")
 
 
 st.divider()
@@ -129,12 +129,19 @@ st.header("💼 &nbsp; Experience")
 # Job 1
 st.subheader("Data Analyst")
 st.subheader(":gray[Australian Institute of Sport (AIS)]")
+
 st.caption("Sep 2023 - Present&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC5)")
+st.markdown("- Collaborated with AIS internal staff and National Sporting Organisation stakeholders to optimise 5-8 athlete categorisation frameworks leading to reductions of 10-15% or more in total athletes categorised. Freed up of >$50,000 in funds that can be reallocated into the sporting system to resource athletes with demonstrable medal potential.")
+st.markdown("- Led and delivered data products to the entire Australian high performance (HP) sport system including the Daily Performance Environment (DPE) Insights Survey reporting platform (Tableau) enabling insights on the health of the DPE of 50+ NSOs reaching more than 400 athletes and coaches.")
+st.markdown("- Liaised with Hockey Australia to convert the Hockey Pathways tool from PowerApps to Streamlit, enhancing user experience and functionality which enabled Hockey Australia to track the longitudinal performance trajectory of 200 pathways athletes.")
+st.markdown("- Managed the relationship with and integration of diverse data sources for Paralympics Australia (PA) to eliminate information silos through data pipelines using DBT for SQL transformation and Dagster for orchestration.")
+st.markdown("- Partnered with Boccia Australia and PA to develop a data pipeline in Python and Snowflake, automating pre-competition matchup analysis and reducing the time between result and analysis from 1 week post event to instantaneously.")
+
 st.caption("Sep 2022 - Sep 2023&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC4)")
-st.markdown("- Lead and deliver data products to the entire HP System including the DPE Insights Survey as a part of the 2032+ Strategy.")
-st.markdown("- Building end-to-end data products from input to output for Olympic and Paralympic sporting programs including Table Tennis (Para & Able), Winter (Aerial Skiing) and Combat sports.")
-st.markdown("- Created an automated data solution for the Career Practitioner Referral Network (CPRN) reducing input time and driving engagement of over 80 practitioners in the network.")
-st.markdown("- Delivered a full stack data product for the Community Engagement team driving key operational insights and improving the data literacy of non-technical audiences.")
+st.markdown("- Worked with and maintained a portfolio of 30 sports including Table Tennis (Para & Able), Winter and Combat sports creating value using innovative, open-sourced tools such as Streamlit to answer more than 100 performance questions.")
+st.markdown("- Delivered a full stack data product for the Community Engagement team that centralised the storage and reporting of more than 750 program engagements across 13 programs over a 4-year period.")
+st.markdown("- Created an automated data solution for the Career Practitioner Referral Network (CPRN) reducing input time, enabling automatic quarterly reporting, and delivering educational webinars reaching over 80 non-technical practitioners in the network.")
+st.markdown("- Validated and developed business cases for agile data analysis tools including Streamlit, Tableau format and design, S3 bucket best practices and Snowflake, integrating them as a part of the AIS data stack.")
 
 st.markdown("")
 
@@ -185,12 +192,12 @@ with col1:
     st.write("Web Scraping")
 with col2:
     st.write("App Development")
-    st.write("Statistical Modelling")
+    st.write("Dimensional Modelling")
 with col3:
-    st.write("Git")
+    st.write("Data Orchestration")
     st.write("Docker")
 with col4:
-    st.write("Bayesian Statistics")
+    st.write("Git")
     st.write("CI/CD")
 
 st.markdown("")
@@ -227,7 +234,19 @@ with col5:
 
 st.markdown("")
 
-st.subheader(":gray[Visualization Tools]")
+st.subheader(":gray[Orchestration Tools]")
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.write("Dagster")
+with col2:
+    st.write("DBT")
+with col3:
+    st.write("Airflow")
+
+st.markdown("")
+
+st.subheader(":gray[Visualisation Tools]")
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -236,6 +255,8 @@ with col2:
     st.write("Power BI")
 with col3:
     st.write("Excel")
+
+st.markdown("")
 
 st.subheader(":gray[Databases]")
 col1, col2, col3, col4 = st.columns(4)
@@ -286,15 +307,13 @@ with st.expander("Tech Stack Used"):
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        st.write("**:gray[LLM]**")
         st.write("**:gray[Streamlit]**")
     with col2:
-        st.write("**:gray[Vector Database]**")
-        st.write("**:gray[Knowledge Graph]**")
+        st.write("**:gray[HTML]**")
     with col3:
-        st.write("**:gray[SpaCy]**")
+        st.write("**:gray[CSS]**")
     with col4:
-        st.write("**:gray[Hugging Face]**")
+        st.write("**:gray[Github Actions]**")
 
 st.divider()
 
