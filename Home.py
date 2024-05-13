@@ -107,8 +107,8 @@ st.markdown("")
 st.markdown("")
 
 st.write("Data professional at the Australian Institute of Sport working between the intersection of Olympic sports and high performance. \
-        Experienced in leveraging data visualisation and BI tools to drive our understanding of human performance, seeking an environment \
-        focused on continuous improvement and change in the sports analytics space.")
+        Experienced in leveraging data orchestration and visualisation tools to build end-to-end data products that drive our understanding of human performance, seeking an environment \
+        focused on continuous improvement and change in the analytics space.")
 
 st.markdown("")
 
@@ -328,6 +328,8 @@ st.subheader(":gray[La Trobe University]")
 st.caption("Jan 2022 - Nov 2023&nbsp;&nbsp;|&nbsp;&nbsp;GPA 6.9")
 st.markdown("- Authored a thesis entitled 'Applications of Rating Systems to Single- and Multi-Competitor Olympic Sports' in partner with the Australian Institute of Sport.")
 st.markdown("- Developed advanced skills in R, Python, SQL, relational databases, dimensional modeling, and computer vision through coursework.")
+st.markdown("- Recipient of The Provest Commendation award for sustained academic excellence across a 24 month period.")
+
 
 st.markdown("")
 
