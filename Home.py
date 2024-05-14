@@ -275,40 +275,92 @@ st.divider()
 # Project Section
 st.header("🚀 &nbsp; Projects")
 
-# Salary Prediction Engine
+# Project 1
 st.subheader(":gray[Jobs in Sport Data Pipeline]")
 st.markdown("- Developed a CI/CD pipeline to extract and ingest sporting job postings from the Sportspeople webpage on a daily schedule.")
+st.markdown("")
+with st.expander("Tech Stack Used"):
+    col1, col2, = st.columns(2)
+    with col1:
+        st.markdown("""
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Python**</span>
+                    """, unsafe_allow_html=True
+                    )
+    with col2:
+        st.markdown(f"""
+                    <img src="data:image/svg+xml;base64,{encoded_image}" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Github Actions**</span>
+                    """, unsafe_allow_html=True
+                    )
 
 st.markdown("")
 
-with st.expander("Tech Stack Used"):
-
-    col1, col2, = st.columns(2)
-
-    with col1:
-        st.write("**:gray[Python]**")
-    with col2:
-        st.write("**:gray[Github Actions]**")
-
-# Smart Chat Insights
+# Project 2
 st.subheader(":gray[Personal Portfolio Website]")
 st.markdown("- Create a personal portfolio using Streamlit that has a UI/UX built with custom CSS and HTML.")
 st.markdown("- Digitise the resume as a means of continuous updating and displaying current analytical experience.")
+st.markdown("")
+with st.expander("Tech Stack Used"):
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.markdown("""
+                    <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Streamlit**</span>
+                    """, unsafe_allow_html=True
+                    )  
+    with col2:
+        st.markdown("""
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1200px-HTML5_Badge.svg.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**HTML**</span>
+                    """, unsafe_allow_html=True
+                    )
+    with col3:
+        st.markdown("""
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**CSS**</span>
+                    """, unsafe_allow_html=True
+                    )
+    
+    with col4:
+        st.markdown(f"""
+                    <img src="data:image/svg+xml;base64,{encoded_image}" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Ghub Actions**</span>
+                    """, unsafe_allow_html=True
+                    )
 
 st.markdown("")
 
+# Project 3
+st.subheader(":gray[Para Table-Tennis Pipeline]")
+st.markdown("- Develop a pipeline for processing match results and player profiles for Para Table-Tennis using Dagster, dbt, and Snowflake.")
+st.markdown("- Leverages Python for data extraction from the IPTTC website, transforming this data in Snowflake with RBAC best practices using dbt Core and orchestrating using software-defined assets in Dagster.")
 with st.expander("Tech Stack Used"):
-
     col1, col2, col3, col4 = st.columns(4)
-
     with col1:
-        st.write("**:gray[Streamlit]**")
+        st.markdown("""
+                    <img src="https://dagster.io/images/brand/logos/dagster-primary-mark.svg" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Dagster**</span>
+                    """, unsafe_allow_html=True
+                    )
     with col2:
-        st.write("**:gray[HTML]**")
+        st.markdown("""
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Python**</span>
+                    """, unsafe_allow_html=True
+                    )
     with col3:
-        st.write("**:gray[CSS]**")
+        st.markdown("""
+                    <img src="https://seeklogo.com/images/D/dbt-logo-500AB0BAA7-seeklogo.com.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**dbt Core**</span>
+                    """, unsafe_allow_html=True
+                    )
     with col4:
-        st.write("**:gray[Github Actions]**")
+        st.markdown("""
+                    <img src="https://companieslogo.com/img/orig/SNOW-35164165.png?t=1634190631" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**Snowflake**</span>
+                    """, unsafe_allow_html=True
+                    )
 
 st.divider()
 
