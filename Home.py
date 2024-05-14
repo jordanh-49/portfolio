@@ -276,7 +276,14 @@ st.divider()
 st.header("🚀 &nbsp; Projects")
 
 # Project 1
-st.subheader(":gray[Jobs in Sport Data Pipeline]")
+col1,col2 = st.columns([1.25,1])
+col1.subheader(":gray[Jobs in Sport Data Pipeline]")
+col2.markdown(f"""
+                <a href="https://github.com/jordanh-49/sportspeople-scraper" target="_blank">
+                    <img src="data:image/svg+xml;base64,{encoded_image}" style="padding-top: 10px;" width="25">
+                </a>
+                """, unsafe_allow_html=True
+                )
 st.markdown("- Developed a CI/CD pipeline to extract and ingest sporting job postings from the Sportspeople webpage on a daily schedule.")
 st.markdown("")
 with st.expander("Tech Stack Used", expanded=True):
@@ -297,7 +304,14 @@ with st.expander("Tech Stack Used", expanded=True):
 st.markdown("")
 
 # Project 2
-st.subheader(":gray[Personal Portfolio Website]")
+col1,col2 = st.columns([1.25,1])
+col1.subheader(":gray[Personal Portfolio Website]")
+col2.markdown(f"""
+                <a href="https://github.com/jordanh-49/portfolio" target="_blank">
+                    <img src="data:image/svg+xml;base64,{encoded_image}" style="padding-top: 10px;" width="25">
+                </a>
+                """, unsafe_allow_html=True
+                )
 st.markdown("- Create a personal portfolio using Streamlit that has a UI/UX built with custom CSS and HTML.")
 st.markdown("- Digitise the resume as a means of continuous updating and displaying current analytical experience.")
 st.markdown("")
@@ -332,7 +346,14 @@ with st.expander("Tech Stack Used", expanded=True):
 st.markdown("")
 
 # Project 3
-st.subheader(":gray[Para Table-Tennis Pipeline]")
+col1,col2 = st.columns([1.25,1])
+col1.subheader(":gray[Para Table-Tennis Pipeline]")
+col2.markdown(f"""
+                <a href="https://github.com/jordanh-49/ipttc" target="_blank">
+                    <img src="data:image/svg+xml;base64,{encoded_image}" style="padding-top: 10px;" width="25">
+                </a>
+                """, unsafe_allow_html=True
+                )
 st.markdown("- Develop a pipeline for processing match results and player profiles for Para Table-Tennis using Dagster, dbt, and Snowflake.")
 st.markdown("- Leverages Python for data extraction from the IPTTC website, transforming this data in Snowflake with RBAC best practices using dbt Core and orchestrating using software-defined assets in Dagster.")
 with st.expander("Tech Stack Used", expanded=True):
