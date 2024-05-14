@@ -279,7 +279,7 @@ st.header("🚀 &nbsp; Projects")
 st.subheader(":gray[Jobs in Sport Data Pipeline]")
 st.markdown("- Developed a CI/CD pipeline to extract and ingest sporting job postings from the Sportspeople webpage on a daily schedule.")
 st.markdown("")
-with st.expander("Tech Stack Used"):
+with st.expander("Tech Stack Used", expanded=True):
     col1, col2, = st.columns(2)
     with col1:
         st.markdown("""
@@ -301,7 +301,7 @@ st.subheader(":gray[Personal Portfolio Website]")
 st.markdown("- Create a personal portfolio using Streamlit that has a UI/UX built with custom CSS and HTML.")
 st.markdown("- Digitise the resume as a means of continuous updating and displaying current analytical experience.")
 st.markdown("")
-with st.expander("Tech Stack Used"):
+with st.expander("Tech Stack Used", expanded=True):
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.markdown("""
@@ -335,7 +335,7 @@ st.markdown("")
 st.subheader(":gray[Para Table-Tennis Pipeline]")
 st.markdown("- Develop a pipeline for processing match results and player profiles for Para Table-Tennis using Dagster, dbt, and Snowflake.")
 st.markdown("- Leverages Python for data extraction from the IPTTC website, transforming this data in Snowflake with RBAC best practices using dbt Core and orchestrating using software-defined assets in Dagster.")
-with st.expander("Tech Stack Used"):
+with st.expander("Tech Stack Used", expanded=True):
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.markdown("""
