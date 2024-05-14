@@ -223,7 +223,7 @@ with col3:
 with col4:
     st.write("Snowpark")
     st.write("Jupyter")
-    st.write("Posit")
+    st.write("DuckDB")
     st.write("Dplyr (R)")
     
 with col5:
@@ -278,22 +278,17 @@ st.header("🚀 &nbsp; Projects")
 # Salary Prediction Engine
 st.subheader(":gray[Jobs in Sport Data Pipeline]")
 st.markdown("- Developed a CI/CD pipeline to extract and ingest sporting job postings from the Sportspeople webpage on a daily schedule.")
-st.markdown("- Created a real-time job search and analytics application in Streamlit designed for users to explore trends in the salaries and job type data.")
 
 st.markdown("")
 
 with st.expander("Tech Stack Used"):
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, = st.columns(2)
 
     with col1:
         st.write("**:gray[Python]**")
     with col2:
         st.write("**:gray[Github Actions]**")
-    with col3:
-        st.write("**:gray[Streamlit]**")
-    with col4:
-        st.write("**:gray[Plotly]**")
 
 # Smart Chat Insights
 st.subheader(":gray[Personal Portfolio Website]")
@@ -328,7 +323,7 @@ st.subheader(":gray[La Trobe University]")
 st.caption("Jan 2022 - Nov 2023&nbsp;&nbsp;|&nbsp;&nbsp;GPA 6.9")
 st.markdown("- Authored a thesis entitled 'Applications of Rating Systems to Single- and Multi-Competitor Olympic Sports' in partner with the Australian Institute of Sport.")
 st.markdown("- Developed advanced skills in R, Python, SQL, relational databases, dimensional modeling, and computer vision through coursework.")
-st.markdown("- Recipient of The Provest Commendation award for sustained academic excellence across a 24 month period.")
+st.markdown("- Recipient of The Provost's Commendation award for sustained academic excellence across a 24 month period.")
 
 
 st.markdown("")
