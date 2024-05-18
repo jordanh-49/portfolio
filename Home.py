@@ -131,7 +131,7 @@ st.subheader("Data Analyst")
 st.subheader(":gray[Australian Institute of Sport (AIS)]")
 
 st.caption("Sep 2023 - Present&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC5)")
-st.markdown("- Collaborated with AIS internal staff and National Sporting Organisation stakeholders to optimise 5-8 athlete categorisation frameworks leading to reductions of 10-15% or more in total athletes categorised. Freed up of >$50,000 in funds that can be reallocated into the sporting system to resource athletes with demonstrable medal potential.")
+st.markdown("- Collaborated with AIS internal staff and National Sporting Organisation stakeholders to optimise 5-8 athlete categorisation frameworks leading to reductions of 10-15% or more in total athletes categorised. Freed up >$50,000 in funds for reallocation into the sporting system to resource athletes with demonstrable medal potential.")
 st.markdown("- Led and delivered data products to the entire Australian high performance (HP) sport system including the Daily Performance Environment (DPE) Insights Survey reporting platform (Tableau) enabling insights on the health of the DPE of 50+ NSOs reaching more than 400 athletes and coaches.")
 st.markdown("- Liaised with Hockey Australia to convert the Hockey Pathways tool from PowerApps to Streamlit, enhancing user experience and functionality which enabled Hockey Australia to track the longitudinal performance trajectory of 200 pathways athletes.")
 st.markdown("- Managed the relationship with and integration of diverse data sources for Paralympics Australia (PA) to eliminate information silos through data pipelines using DBT for SQL transformation and Dagster for orchestration.")
