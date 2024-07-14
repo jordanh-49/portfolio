@@ -51,11 +51,38 @@ html_code = """
 # Render the HTML code to apply the styling
 st.markdown(html_code, unsafe_allow_html=True)
 
-st.markdown("""
+# Path to your image
+image_path = "images/profile-pic.jpg"
+
+# Load the image
+image = Image.open(image_path)
+
+# Convert the image to base64 to embed in HTML
+with open(image_path, "rb") as img_file:
+    b64_string = base64.b64encode(img_file.read()).decode()
+
+# Display the image with specific id in HTML
+st.markdown(
+    f"""
     <div style="text-align:center;">
-        <img src="https://media.licdn.com/dms/image/C4D03AQE7AI4ND4OHoA/profile-displayphoto-shrink_400_400/0/1652921990290?e=1720656000&v=beta&t=8cq3fUKhBtNZUrtJOVzpn3IL3bEkuqHjb1WqzBwIr8c" alt="Profile Picture" style="width:175px;height:175px;border-radius:50%;">
+        <img id="profile-pic" src="data:image/jpeg;base64,{b64_string}" alt="Profile Picture" style="width:175px;height:175px;">
     </div>
-    """, unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
+
+# Apply custom CSS to make the specific image circular
+st.markdown(
+    """
+    <style>
+    #profile-pic {
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.markdown("""
     <style>
