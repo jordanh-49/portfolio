@@ -304,6 +304,36 @@ st.header("🚀 &nbsp; Projects")
 
 # Project 1
 col1,col2 = st.columns([1.25,1])
+col1.subheader(":gray[NBA Playoff Predictor]")
+col2.markdown(f"""
+                <a href="https://github.com/jordanh-49/nba_playoff_predictor" target="_blank">
+                    <img src="data:image/svg+xml;base64,{encoded_image}" style="padding-top: 10px;" width="25">
+                </a>
+                """, unsafe_allow_html=True
+                )
+st.markdown("- Developed a XG boosted tree model to predict the outcome of NBA playoff games and series.")
+st.markdown("- [Link to HTML output](https://jordanh-49.github.io/nba_playoff_predictor/)")
+
+st.markdown("")
+with st.expander("Tech Stack Used", expanded=True):
+    col1, col2, = st.columns(2)
+    with col1:
+        st.markdown("""
+                    <img src="https://www.r-project.org/Rlogo.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**R/RStudio**</span>
+                    """, unsafe_allow_html=True
+                    )
+    with col2:
+        st.markdown("""
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1200px-HTML5_Badge.svg.png" width="25" 
+                    style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**HTML**</span>
+                    """, unsafe_allow_html=True
+                    )
+
+st.markdown("")
+
+# Project 2
+col1,col2 = st.columns([1.25,1])
 col1.subheader(":gray[Jobs in Sport Data Pipeline]")
 col2.markdown(f"""
                 <a href="https://github.com/jordanh-49/sportspeople-scraper" target="_blank">
