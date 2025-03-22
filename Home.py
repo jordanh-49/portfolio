@@ -133,20 +133,26 @@ with link_cols[2]:
 st.markdown("")
 st.markdown("")
 
-st.write("Data professional at the Australian Institute of Sport working between the intersection of Olympic sports and high performance. \
-        Experienced in leveraging data orchestration and visualisation tools to build end-to-end data products that drive our understanding of human performance, seeking an environment \
-        focused on continuous improvement and change in the analytics space.")
+st.write("Data professional at the Orlando Magic working at the intersection between player development and analytics in the NBA. \
+    Experienced in leveraging data and working with players/coaches to help improve player on-court performance.")
 
 st.markdown("")
 
 # into cards
 cols = st.columns(3)
 with cols[0]:
-    ui.metric_card(title="Development", content="Web Apps", description="Streamlit, R Shiny, Dash", key="card1")
+    ui.metric_card(title="Insights", content="Metric Dev", description="R, Python, SQL", key="card1")
 with cols[1]:
-    ui.metric_card(title="Visualisation", content="BI Tools", description="Tableau, Power BI", key="card2")
+    ui.metric_card(title="Technical", content="Web Apps", description="Streamlit, R Shiny, Plotly", key="card2")
 with cols[2]:
-    ui.metric_card(title="Analytics Engineering", content="Orchestration", description="Dagster, DBT", key="card3")
+    ui.metric_card(title="Communication", content="Reports", description="Powerpoint, Notion", key="card3")
+
+# with cols[0]:
+#     ui.metric_card(title="Development", content="Web Apps", description="Streamlit, R Shiny, Dash", key="card1")
+# with cols[1]:
+#     ui.metric_card(title="Visualisation", content="BI Tools", description="Tableau, Power BI", key="card2")
+# with cols[2]:
+#     ui.metric_card(title="Analytics Engineering", content="Orchestration", description="Dagster, DBT", key="card3")
 
 
 st.divider()
@@ -154,10 +160,19 @@ st.divider()
 st.header("💼 &nbsp; Experience")
 
 # Job 1
+st.subheader("Player Development Analyst")
+st.subheader(":gray[Orlando Magic (NBA)]")
+
+st.caption("November 2024 - Present&nbsp;&nbsp;|&nbsp;&nbsp;Full Time")
+# st.markdown("- Test")
+
+st.markdown("")
+
+# Job 2
 st.subheader("Data Analyst")
 st.subheader(":gray[Australian Institute of Sport (AIS)]")
 
-st.caption("Sep 2023 - Present&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC5)")
+st.caption("Sep 2023 - Nov 2024&nbsp;&nbsp;|&nbsp;&nbsp;Full Time&nbsp;(ASC5)")
 st.markdown("- Collaborated with AIS internal staff and National Sporting Organisation stakeholders to optimise 5-8 athlete categorisation frameworks leading to reductions of 10-15% or more in total athletes categorised. Freed up >$50,000 in funds for reallocation into the sporting system to resource athletes with demonstrable medal potential.")
 st.markdown("- Led and delivered data products to the entire Australian high performance (HP) sport system including the Daily Performance Environment (DPE) Insights Survey reporting platform (Tableau) enabling insights on the health of the DPE of 50+ NSOs reaching more than 400 athletes and coaches.")
 st.markdown("- Liaised with Hockey Australia to convert the Hockey Pathways tool from PowerApps to Streamlit, enhancing user experience and functionality which enabled Hockey Australia to track the longitudinal performance trajectory of 200 pathways athletes.")
@@ -172,7 +187,7 @@ st.markdown("- Validated and developed business cases for agile data analysis to
 
 st.markdown("")
 
-# Job 2
+# Job 3
 st.subheader("Data Exploration Consultant")
 st.subheader(":gray[National University of Singapore (NUS)]")
 st.caption("May 2022 - Jun 2022&nbsp;&nbsp;|&nbsp;&nbsp;Contract")
@@ -181,7 +196,7 @@ st.markdown("- Optimized SQL stored procedures within Neo4j, leveraging the powe
 
 st.markdown("")
 
-# Job 3
+# Job 4
 st.subheader("Performance Analyst Intern")
 st.subheader(":gray[Victorian Institute of Sport (VIS)]")
 st.caption("Oct 2021 - Oct 2022&nbsp;&nbsp;|&nbsp;&nbsp;Part Time")
