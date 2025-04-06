@@ -98,18 +98,19 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # st.markdown("")
-link_cols = st.columns(3)
+link_cols = st.columns(2)
+# link_cols = st.columns(3)
 
-with link_cols[0]:
-    st.markdown("""
-        <div style="text-align:center;">
-            <a href="mailto:jordanh.42.31@gmail.com" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/320px-Gmail_icon_%282020%29.svg.png" alt="Mail Logo" style="width:50px;height:50px;">
-            </a>
-        </div>
-        """, unsafe_allow_html=True)
+# with link_cols[0]:
+#     st.markdown("""
+#         <div style="text-align:center;">
+#             <a href="mailto:jordanh.42.31@gmail.com" target="_blank">
+#                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/320px-Gmail_icon_%282020%29.svg.png" alt="Mail Logo" style="width:50px;height:50px;">
+#             </a>
+#         </div>
+#         """, unsafe_allow_html=True)
     
-with link_cols[1]:
+with link_cols[0]:
     st.markdown("""
         <div style="text-align:center;">
             <a href="https://www.linkedin.com/in/jordanhilton49/" target="_blank">
@@ -121,7 +122,7 @@ with link_cols[1]:
 # Assuming your image is in 'portfolio/images/github.svg'
 encoded_image = get_image_as_base64('images/github.svg')
 
-with link_cols[2]:
+with link_cols[1]:
     st.markdown(f"""
     <div style="text-align:center;">
         <a href="https://github.com/jordanh-49" target="_blank">
