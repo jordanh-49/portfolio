@@ -111,13 +111,23 @@ link_cols = st.columns(2)
 #         """, unsafe_allow_html=True)
     
 with link_cols[0]:
-    st.markdown("""
+    linkedin_image = get_image_as_base64("images/linkedin.svg")
+
+    st.markdown(
+        f"""
         <div style="text-align:center;">
-            <a href="https://www.linkedin.com/in/jordanhilton49" target="_blank">
-                <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn Logo" style="width:50px;height:50px;">
+            <a href="https://www.linkedin.com/in/jordanhilton49"
+               target="_blank">
+                <img
+                    src="data:image/svg+xml;base64,{linkedin_image}"
+                    alt="LinkedIn Logo"
+                    style="width:50px;height:50px;"
+                >
             </a>
         </div>
-        """, unsafe_allow_html=True)
+        """,
+        unsafe_allow_html=True
+    )
     
 # Assuming your image is in 'portfolio/images/github.svg'
 encoded_image = get_image_as_base64('images/github.svg')
