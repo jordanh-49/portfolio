@@ -351,7 +351,7 @@ with st.expander("Tech Stack Used", expanded=True):
                     )
     with col2:
         st.markdown("""
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1200px-HTML5_Badge.svg.png" width="25" 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" width="25" 
                     style='vertical-align: middle;'> &nbsp; <span style='color: #808496;'>**HTML**</span>
                     """, unsafe_allow_html=True
                     )
