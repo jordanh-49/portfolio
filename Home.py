@@ -113,7 +113,7 @@ link_cols = st.columns(2)
 with link_cols[0]:
     st.markdown("""
         <div style="text-align:center;">
-            <a href="https://www.linkedin.com/in/jordanhilton49/" target="_blank">
+            <a href="https://www.linkedin.com/in/jordanhilton49" target="_blank">
                 <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn Logo" style="width:50px;height:50px;">
             </a>
         </div>
